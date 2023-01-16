@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 50vh 25vh 25vh;
+}
+
+.content{
+    background-color: lightblue;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content7{
+    overflow: auto;
+}
+
+.content2{
+    background-image: url("https://cdn.pixabay.com/photo/2019/09/30/19/20/caravansary-4516601_960_720.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
